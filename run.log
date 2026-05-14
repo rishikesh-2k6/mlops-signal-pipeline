@@ -1,0 +1,16 @@
+2026-05-14T17:50:29 | INFO     | ============================================================
+2026-05-14T17:50:29 | INFO     | Job START — 2026-05-14T17:50:29
+2026-05-14T17:50:29 | INFO     | Input:  data.csv
+2026-05-14T17:50:29 | INFO     | Config: config.yaml
+2026-05-14T17:50:29 | INFO     | Output: metrics.json
+2026-05-14T17:50:29 | INFO     | Log:    run.log
+2026-05-14T17:50:29 | INFO     | ============================================================
+2026-05-14T17:50:29 | INFO     | Config loaded — seed=42, window=5, version=v1
+2026-05-14T17:50:29 | INFO     | Dataset loaded — 10000 rows, 7 columns
+2026-05-14T17:50:29 | INFO     | Rolling mean computed — window=5, valid rows (non-NaN): 9996
+2026-05-14T17:50:29 | INFO     | Signal generated — valid signal rows: 9996, NaN warm-up rows excluded: 4
+2026-05-14T17:50:29 | INFO     | Metrics — rows_processed=9996, signal_rate=0.4991, latency_ms=43
+2026-05-14T17:50:29 | INFO     | Metrics written to metrics.json
+2026-05-14T17:50:29 | INFO     | ============================================================
+2026-05-14T17:50:29 | INFO     | Job END — status=success
+2026-05-14T17:50:29 | INFO     | ============================================================
